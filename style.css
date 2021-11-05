@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.listofnotes{
+  background: #ecfaf5;
+  height: 500px;
+  width: 580px;
+  display: none;
+}
+
+.header{
+  height: 50px;
+  background: #9ec862;
+  display: flex;
+  align-items: center;
+
+}
+
+.container {
+  background: #7bdaf3;
+  height: 650px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notes {
+  background: #ecfaf5;
+  height: 500px;
+  width: 580px;
+  display: flow-root;
+}
+
+.tools {
+  height: 50px;
+  background: #9ec862;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  margin-left: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.textarea {
+  display: flex;
+  justify-content: center;
+  /* display: none; */
+}
+
+#text {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 450px;
+  height: 300px;
+  border: none;
+  background: #ecfaf5;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.textareasaved {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem; 
+  font-size: 1.2rem;
+}
+
+#save {
+  display: flex;
+  justify-content: center;
+}
+
+.savebtn {
+  background: #9ec862;
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+#textsaved {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 450px;
+  height: 300px;
+  border: none;
+  background: #ecfaf5;
+  font-size: 1.2rem;
+  outline: none;
+  word-break: break-all;
+}

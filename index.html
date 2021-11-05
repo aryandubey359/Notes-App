@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container" id="container">
+      <div class="listofnotes" id="listofnotes">
+        <div class="header" id="header">
+          <button class="btn" id="noteslist">
+            <i class="fas fa-list-ul"></i>
+          </button>
+          <p id="savedheader" style="margin-left: 13.5rem; font-size: 1.2rem">
+            Saved Notes
+          </p>
+        </div>
+        <div class="savednotes">
+          <ul>
+            <li>Saved Note 1</li>
+            <li>Saved Note 2</li>
+            <li>Saved Note 3</li>
+            <li>Saved Note 4</li>
+          </ul>
+        </div>
+      </div>
+      <div class="notes" id="notes">
+        <div class="tools" id="tools">
+          <button class="btn" id="noteslist">
+            <i class="fas fa-list-ul"></i>
+          </button>
+          <button class="btn" id="newnote"><i class="fas fa-plus"></i></button>
+          <button class="btn" id="editnote"><i class="fas fa-edit"></i></button>
+          <button class="btn" id="deletenote" style="margin-left: 27rem">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+        <div class="textarea" id="textarea">
+          <textarea id="text"></textarea>
+        </div>
+        <div class="textareasaved" id="textareasaved">
+          <p id="textsaved"></p>
+        </div>
+        <div class="save" id="save">
+          <button class="savebtn" id="savenote">Save</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
